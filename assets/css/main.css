@@ -4694,5 +4694,12 @@ input, select, textarea {
 	#contact .card:hover i,#contact .card:hover h4{
 		color: #87d37c;
 	}
-
+.new-line{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
 	
+}
+	.contact-list:hover{
+		color: #87d37c;
+	}
