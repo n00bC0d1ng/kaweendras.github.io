@@ -4703,3 +4703,134 @@ input, select, textarea {
 	.contact-list:hover{
 		color: #87d37c;
 	}
+
+	.lms-images{
+		position: relative;
+	}
+
+	.lms-images2{
+		position: relative;
+	}
+
+	.image1{
+		width: 80%;
+		position: relative;
+		top: 0;
+		left: 0;
+		filter: drop-shadow(5px 5px 8px #000000);
+
+	}
+
+	.image2{
+		width: 80%;
+		position: absolute;
+		top: 75px;
+		left: 150px;
+		filter: drop-shadow(5px 5px 8px #000000);
+	}
+
+	.image3{
+
+		width: 80%;
+		position: absolute;
+		top: 150px;
+		left: 300px;
+		filter: drop-shadow(5px 5px 8px #000000);
+		
+	}
+	.imagex2{
+		width: 30%;
+		position: absolute;
+		top: 200px;
+		left: 1000px;
+		filter: drop-shadow(5px 5px 8px #000000);
+		z-index: 999;
+	}
+	.lms-phara{
+		position: relative;
+		top:200px;
+	}
+	
+	.image1:hover{
+		z-index: 1000;
+	}
+	.image2:hover{
+		z-index: 1000;
+	}
+
+
+	.image1-w{
+		width: 80%;
+		position: relative;
+		top: 0;
+		left: 0;
+		filter: drop-shadow(5px 5px 8px #000000);
+
+	}
+	.image2-w{
+		width: 80%;
+		position: absolute;
+		top: 30px;
+		left: 60px;
+		filter: drop-shadow(5px 5px 8px #666464);
+	}
+
+	.image3-w{
+
+		width: 80%;
+		position: absolute;
+		top: 60px;
+		left: 120px;
+		filter: drop-shadow(5px 5px 8px #666464);
+		
+	}
+	.image4-w{
+		width: 80%;
+		position: absolute;
+		top: 120px;
+		left: 200px;
+		filter: drop-shadow(5px 5px 8px #666464);
+	}
+
+	.image5-w{
+
+		width: 80%;
+		position: absolute;
+		top: 180px;
+		left: 280px;
+		filter: drop-shadow(5px 5px  #666464);
+		
+	}
+
+	.image2-w:hover{
+		z-index: 999;
+	}
+	.image3-w:hover{
+		z-index: 999;
+	}
+	.image4-w:hover{
+		z-index: 999;
+	}
+	.image1-w:hover{
+		z-index: 999;
+	}
+
+	.image1-g{
+		width: 90%;
+		position: relative;
+		top: 0;
+		left: 0;
+		filter: drop-shadow(5px 5px 8px #666464);
+
+	}
+	.image2-g{
+		width: 90%;
+		position: absolute;
+		top: 80px;
+		left: 150px;
+		filter: drop-shadow(5px 5px 8px #666464);
+	}
+
+	.image1-g:hover{
+		z-index: 999;
+	}
