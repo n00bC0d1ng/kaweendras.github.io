@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3758,8 +3760,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
-		position: relative;
+		background-color: rgba(248, 250, 234, 0.87);
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
@@ -3782,6 +3783,7 @@ input, select, textarea {
 
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
+			
 		}
 
 			#main > .post header.major > .date {
