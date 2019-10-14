@@ -10,6 +10,7 @@
 		
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -18,8 +19,8 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>I am<br />
-						Kaweendra</h1>
+						<h1>My<br />
+						Skills</h1>
 						<p>A passionate UX Engineer/Product Designer and a software engineering undergraduate who is highly enthusiastic<br />
 							in research driven solutions to enhance user experience.</p>
 						<ul class="actions">
@@ -35,9 +36,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Home</a></li>
 							<li><a href="portfolio.html">portfolio</a></li>
-							<li class=""><a href="skills.html">Skills</a></li>
+							<li class="active"><a href="skills.html">Skills</a></li>
 							
 						</ul>
 						<ul class="icons">
@@ -53,19 +54,29 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="portfolio.html">About me</a></h2>
-									<p>I am a Software Engineering undergraduate at <a href="www.sliit.lk" class="">Sri Lanka Institute of Information Technology(SLIIT)</a> <br>
-									I've more than 1 year experience in web developing and software development.<br>Recently I've completed following <a href="portfolio.html" class="">Projects.</a></p>
-								</header>
-								<a href="portfolio.html" class="image main"><img src="images/all.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="portfolio.html" class="button large">My Works</a></li>
-								</ul>
-							</article>
-
+						<canvas id="bar-chart-horizontal" width="800" height="450"></canvas>
+						<script>
+						new Chart(document.getElementById("bar-chart-horizontal"), {
+							type: 'horizontalBar',
+							data: {
+							  labels: ["Java", "C++", "C", "Python", "HTML", "css","JS","PHP"],
+							  datasets: [
+								{
+								  //label: "Population (millions)",
+								  backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+								  data: [90,70,70,60,80,75,70,80,55]
+								}
+							  ]
+							},
+							options: {
+							  legend: { display: false },
+							  title: {
+								display: false,
+								text: 'Predicted world population (millions) in 2050'
+							  }
+							}
+						});
+					</script>
 						<!-- Posts -->
 							
 
