@@ -53,26 +53,27 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Featured Post -->
-						<canvas id="bar-chart-horizontal" width="800" height="450"></canvas>
+						<!-- Skill levels -->
+						<canvas id="bar-chart" width="800" height="450"></canvas>
 						<script>
-						new Chart(document.getElementById("bar-chart-horizontal"), {
+						new Chart(document.getElementById("bar-chart"), {
 							type: 'horizontalBar',
 							data: {
 							  labels: ["Java", "C++", "C", "Python", "HTML", "css","JS","PHP"],
 							  datasets: [
 								{
 								  //label: "Population (millions)",
-								  backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+								  backgroundColor: ["#DC143C", "#32CD32","#DAA520","#C71585","#6B8E23","#A52A2A", "#FFD700","#00FFFF","#0000FF","#c45850"],
 								  data: [90,70,70,60,80,75,70,80,55]
 								}
 							  ]
 							},
 							options: {
+								
 							  legend: { display: false },
 							  title: {
 								display: false,
-								text: 'Predicted world population (millions) in 2050'
+								text: ''
 							  }
 							}
 						});
