@@ -120,3 +120,9 @@ Project Link: [https://github.com/kaweendras.github.io](https://github.com/kawee
 [license-shield]: https://img.shields.io/github/license/kaweendras/SLIIT_Gaming_community_official_web_page.svg?style=flat-square
 [license-url]: https://github.com/kaweendras/SLIIT_Gaming_community_official_web_pageblob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
+
+
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter)
+[2.1]: http://i.imgur.com/P3YfQoD.png (facebook)
+[3.1]: http://i.imgur.com/yCsTjba.png (google plus)
+[6.1]: http://i.imgur.com/0o48UoR.png (github)
