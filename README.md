@@ -44,6 +44,7 @@ This web page is used as my private portfolio in github pages.
 
 * [Bootstrap](https://getbootstrap.com)
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [JavaScript](https://www.javascript.com/)
 
 
 
