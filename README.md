@@ -1,6 +1,6 @@
 # kaweendras.github.io
 
-## [Live Page!](kaweendras.github.io)
+
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
